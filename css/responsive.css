@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1024px){
+	.logo{
+	width: 50%;
+	float: none;
+	}
+	header nav{
+	width: 40%;
+	float: none;
+	
+	}
+	header nav ul{
+		padding-left: 0;
+	}
+	header nav ul li{
+	float: none;
+	list-style: none;
+	margin-left: 0;
+	}
+
+	.blog_img{
+	width: 50%;
+	float: none;
+	text-align: center;
+	}
+	.blog_img img{
+		width: 100%;
+	}
+	.blog_text{
+		width: 100%;
+		float: none;
+	}
+	.blog_text p{
+		width: 100%;
+	}
+	.blog3 .content1 .blog3_img{
+		float: none;
+		width: 50%;
+		margin: auto;
+
+	}
+	.blog3 .content2 .blog3_img{
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+	.blog4_2 .blog4_item{
+		float: none;
+		width: 80%;
+		margin: auto;
+		margin-top: 75px;
+		text-align: center;
+
+	}
+	.content .hello{
+		width: 100%;
+		float: none;
+	}
+	.form{
+		width: 100%;
+		float: none;
+		margin-top: 100px;
+	}
+}
+

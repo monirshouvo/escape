@@ -1,0 +1,459 @@
+@font-face{
+	src:url(../fonts/Brandon_bld.otf);
+	font-family: Brandon_bld;
+}
+@font-face{
+	src:url(../fonts/Brandon_med.otf);
+	font-family: Brandon_med;
+}
+@font-face{
+	src:url(../fonts/Brandon_light.otf);
+	font-family: Brandon_light;
+}
+@font-face{
+	src:url(../fonts/Brandon_reg.otf);
+	font-family: Brandon_reg;
+}
+
+
+
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/**Header start**/
+header{
+	background-image: url(../img/Escape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.wrapper_header{
+	width: 68%;
+	margin: 50px auto 0;
+
+}
+.logo{
+	width: 16%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+header nav{
+	width: 84%;
+	float: right;
+}
+header nav ul li{
+	float: right;
+	margin-left: 30px;
+	list-style: none;
+}
+header nav ul li:hover {
+	border-bottom: 2px solid white;
+}
+header nav ul li a{
+	font-family:Brandon_med;
+	text-decoration: none;
+	color: white;
+}
+.banner{
+	text-align: center;
+}
+	
+.banner p{
+	font-family: Brandon_light;
+	font-size: 24px;
+	color: white;
+	margin-top: 160px;
+}
+.banner p span{
+	font-family: Brandon_bld;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	display: block;
+	margin-top: 40px;
+}
+button{
+	
+	width: 240px;
+	height: 70px;
+	border: 2px solid white;
+	border-radius: 3%;
+	background: transparent;
+	margin: 80px auto 120px;
+
+}
+button a{
+	font-family: Brandon_bld;
+	font-size: 18px;
+	color: white;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+/**Header end**/
+.blog1 {
+	padding: 100px 0;
+}
+.wrapper_blog{
+	width: 68%;
+	margin: auto;
+	overflow: hidden;
+}
+.blog_img{
+	width: 32%;
+	float: right;
+}
+.blog_img img{
+	width: 100%;
+}
+.blog_text{
+	width: 63%;
+	float: left;
+}
+.blog_text p{
+	width: 100%;
+}
+.blog_text .title{
+	font-family: Brandon_light;
+	font-size: 40px;
+	margin-top: 0;
+}
+.blog_text .title span{
+	font-family: Brandon_bld;
+	font-size: 40px;
+}
+.blog_text .description{
+	font-family: Brandon_reg;
+	font-size: 18px;
+}
+#blog2_img{
+	float: left;
+}
+#blog2_text{
+	float: right;
+}
+#background{
+	background-color: #fafafa;
+}
+
+.blog2{
+	padding: 50px 0 100px;
+}
+
+.blog2 ul{
+	list-style: none;
+	padding:0;
+	overflow: hidden;
+}
+.blog2 ul li{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.blog2 .left-list{
+	float: left;
+	width: 50%;
+}
+.blog2 .right-list{
+	float: right;
+	width: 50%;
+}
+.blog2 ul li .list-img{
+	width: 17%;
+	float: left;
+}
+.blog2 ul li .list-img img{
+	width: 100%;
+}
+.blog2 ul li .list-text{
+	width: 80%;
+	float: right;
+	margin-left: 3%;
+}
+.blog2 ul li .list-text h4{
+	font-family: Brandon_med;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.blog2 ul li .list-text p{
+	font-family: Brandon_reg;
+	margin-top: 10px;
+}
+.blog3_title .blog_text{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.blog3{
+	padding-top: 50px;
+	background-color: #fafafa;
+}
+.blog3_title{
+	padding-top: 50px;
+}
+.blog3 .content1{
+	overflow: hidden;
+	width: 100%;
+}
+.blog3 .content1 .blog3_img{
+	float: left;
+	width: 25%;
+}
+.blog3 .content1 .blog3_img img{
+	width: 100%
+}
+.blog3 .content1 .blog3_description{
+	width: 60%
+	margin-left:5%;
+	overflow: hidden;
+	padding: 20px 40px;
+}
+.blog3 .content1 .blog3_description p{
+	font-family: Brandon_reg;
+	background-color: white;
+	padding-left: 80px;
+
+}
+.blog3 .content1 .blog3_description p span{
+	color: #7690c5;
+}
+
+.blog3 .content2{
+	overflow: hidden;
+	width: 100%;
+	margin-top: 40px;
+}
+.blog3 .content2 .blog3_img{
+	float: right;
+	width: 25%;
+}
+.blog3 .content2 .blog3_img img{
+	width: 100%
+}
+.blog3 .content2 .blog3_description{
+	width: 60%
+	margin-left:5%;
+	overflow: hidden;
+	padding: 20px 40px;
+}
+.blog3 .content2 .blog3_description p{
+	font-family: Brandon_reg;
+	background-color: white;
+	padding-left: 80px;
+
+}
+.blog3 .content2 .blog3_description p span{
+	color: #7690c5;
+}
+
+
+.blog3_footer{
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+.blog3_footer ul{
+	list-style: none;
+	width: 90%;
+	margin: auto;
+}
+.blog3_footer ul li{
+	float: left;
+	width: 15%;
+	margin: 0 3%;
+}
+.blog3_footer ul li a{
+	text-decoration: none;
+}
+.blog3_footer ul li a img{
+	width: 100%;
+}
+
+
+
+
+.blog4{
+	background-color: black;
+	overflow: hidden;
+}
+
+.blog4_1{
+	text-align: center;
+	color: white;
+}
+.blog4_1 p{
+	font-family: Brandon_light;
+	font-size: 45px;
+	margin-bottom: 0;
+
+}
+.blog4_1 p span{
+	font-family: Brandon_bld;
+	font-size: 45px;
+}
+.blog4_1 .blog4_text{
+	font-family: Brandon_reg;
+	font-size: 16px;
+	color: #777777;
+	margin-top: 0;
+}
+
+.blog4_2{
+	overflow: hidden;
+}
+.blog4_2 .blog4_item{
+	float: left;
+	width: 33%;
+	margin-top: 75px;
+	text-align: center;
+
+}
+.blog4_2 .blog4_item img{
+
+}
+.blog4_2 .blog4_item h4{
+	font-family: Brandon_bld;
+	color: white;
+	margin-bottom:0;
+}
+.blog4_2 .blog4_item p{
+	font-family: Brandon_reg;
+	font-size: 16px;
+	color: #dcdcdc;
+	margin-top: 0;
+	
+}
+.blog4_2 .blog4_item ul{
+	width: 60%;
+	margin: auto;
+	padding-left: 0;
+}
+.blog4_2 .blog4_item ul li{
+	float: left;
+	width: 33%;
+	
+}
+.blog4_2 .blog4_item ul li a{}
+.blog4_2 .blog4_item ul li a{}
+
+.blog4_3{
+}
+.blog4_3 p{
+	font-family: Brandon_reg;
+	font-size: 16px;
+	text-align: center;
+	color: #ebebeb;
+	margin-top: 55px;
+	margin-bottom: 100px;
+}
+
+
+
+footer{
+	background-color: #7690c5;
+}
+.content{}
+.content .hello{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+	color: white;
+}
+.content .hello .hello_title{
+	font-family: Brandon_light;
+	font-size: 50px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.content .hello .hello_title span{
+	font-family: Brandon_bld;
+	font-size: 50px;
+}
+.content .hello .hello_text{
+	font-family: Brandon_reg;
+	margin: 0 5px 50px;
+
+
+}
+.content .hello .list-left{
+	width: 50%;
+	float: left;
+}
+.content .hello .list-right{
+	width: 50%;
+	float: right;
+}
+
+
+	
+.hello ul li{
+	list-style: none;
+	padding-bottom: 40px;
+	margin-left: 0;
+}
+
+.hello ul li p{
+	display: inline;
+	font-family: Brandon_reg;
+	font-size: 16px;
+	margin-left: 10px;
+}
+.list-left ul {
+	padding-inline-start:0;
+}
+.list-right ul {
+	padding-inline-start:0;
+}
+
+
+.form{
+	width: 50%;
+	float: right;
+	margin-top: 100px;
+}
+.form input{
+	width: 95%;
+	height: 50px;
+	margin-left: 5%;
+	margin-bottom: 30px;
+}
+.form textarea{
+	width: 95%;
+	margin-left: 5%;
+}
+::placeholder {
+	font-family: Brandon_med;
+	font-size: 16px;
+	color: #bbbbbb;
+	padding-left: 10px;
+}
+
+
+footer .footer_text{
+	font-family: Brandon_med;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
